@@ -70,13 +70,11 @@ img {
   gap: 40px;
   justify-content: flex-start;
 }
-/* .hero-navbar-item {
-  padding: 24px 0;
-} */
 
 .hero-header {
   display: flex;
-  /* justify-content: space-between; */
+  margin:auto;
+  width:1158px;
   height: 72px;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
@@ -372,18 +370,12 @@ img {
 
 .customer-rectangle:hover{
   border-color: #404bbf;
-  fill:#404bbf;
-}
-
-.customer-rectangle:active{
   color:#404bbf;
-  fill:#404bbf;
 }
 
 .customer-rectangle:focus{
   color:#404bbf;
   border-color:#404bbf;
-  fill:#404bbf;
 }
 
 .customers-list{
