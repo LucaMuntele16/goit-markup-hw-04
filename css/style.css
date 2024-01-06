@@ -357,6 +357,7 @@ img {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     margin-bottom:72px;
+    line-height: 1.11;
 }
 .customer-rectangle{
   width: 100%;
@@ -371,15 +372,18 @@ img {
 
 .customer-rectangle:hover{
   border-color: #404bbf;
+  fill:#404bbf;
 }
 
 .customer-rectangle:active{
   color:#404bbf;
+  fill:#404bbf;
 }
 
 .customer-rectangle:focus{
   color:#404bbf;
   border-color:#404bbf;
+  fill:#404bbf;
 }
 
 .customers-list{
@@ -440,7 +444,9 @@ img {
 .footer-elipse:hover{
 background-color:#31d0aa;
 }
-
+.footer-elipse:focus{
+  background-color: #31d0aa;
+}
 .footer-elipse:active{
   background-color: #31d0aa;
 }
